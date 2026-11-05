@@ -21,7 +21,6 @@ FEEDS = {
               "https://sec.cloudapps.cisco.com/security/center/rss.x?i=44"],
     "Fortinet": ["https://www.fortiguard.com/rss/ir.xml",
                  "https://filestore.fortinet.com/fortiguard/rss/ir.xml"],
-    "Microsoft": ["https://api.msrc.microsoft.com/update-guide/rss"],
     "Ivanti": ["https://www.ivanti.com/blog/topics/security-advisory/rss"],
     "Citrix": ["https://support.citrix.com/feed/products/all/securitybulletins.rss"],
 }
@@ -31,7 +30,7 @@ DETAIL_DAYS = 14          # solo se abre la pagina del aviso si es de los ultimo
 MAX_DETAIL_PER_VENDOR = 25
 CVE_RE = re.compile(r"CVE-\d{4}-\d{4,7}", re.I)
 SEV_RE = re.compile(r"\b(?:severity|severidad)\b[^A-Za-z]{0,40}(critical|high|medium|moderate|low|important)", re.I)
-CVSS_RE = re.compile(r"CVSS(?:[^0-9]{0,6}v?[234]\.[01])?[^0-9]{0,40}?(10\.0|\d\.\d)", re.I)
+CVSS_RE = re.compile(r"CVSS(?:[^0-9]{0,6}v?[234](?:\.[01])?)?[^0-9]{0,40}?(10\.0|\d\.\d)", re.I)
 
 http = requests.Session()
 http.headers.update({
@@ -123,7 +122,8 @@ def main():
         old = json.load(open(OUT))
     except Exception:  # noqa: BLE001
         old = {"items": []}
-    previous = {i["link"]: i for i in old.get("items", []) if i.get("link")}
+    # Microsoft se quito de los feeds: lo cubre el programa CVE y su feed pesa demasiado
+    previous = {i["link"]: i for i in old.get("items", []) if i.get("link") and i.get("vendor") in FEEDS}
 
     merged, sources = dict(previous), {}
     for vendor, urls in FEEDS.items():
