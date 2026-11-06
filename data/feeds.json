@@ -29,6 +29,37 @@
  "items": [
   {
    "vendor": "Cisco",
+   "title": "Cisco Informational for Emergency Distrust of eMudhra Root and Intermediate Certificate Authorities",
+   "link": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-emudhra-info-ScS22A1r?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Cisco%20Informational%20for%20Emergency%20Distrust%20of%20eMudhra%20Root%20and%20Intermediate%20Certificate%20Authorities%26vs_k=1",
+   "published": "2026-11-06T20:40:06+00:00",
+   "summary": "Between October 17 and October 20, 2026, a critical security compromise involving Certificate Authorities that are managed by&nbsp; eMudhra was uncovered. A security researcher demonstrated that the private keys for eight eMudhra intermediate certificates were fundamentally broken due to an unprecedented error in their Key Generation Ceremony (KGC) in April 2025. This allows anyone to brute-force acquire these private keys within seconds. For more information, see&nbsp; eMudhra Intermediate CA Compromise and the Cisco Talos blog post Compromised eMudhra intermediate certificates . For informat",
+   "cves": [],
+   "severity": null,
+   "cvss": null,
+   "thirdParty": false,
+   "detailFetched": true,
+   "firstSeen": "2026-11-05T19:57:22.362228+00:00"
+  },
+  {
+   "vendor": "Cisco",
+   "title": "Vulnerabilities in Node.js and Brotli Affecting Cisco Products: October 2026",
+   "link": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-oct2026-node-js-Jj3SQ19u?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Vulnerabilities%20in%20Node.js%20and%20Brotli%20Affecting%20Cisco%20Products:%20October%202026%26vs_k=1",
+   "published": "2026-11-06T20:17:59+00:00",
+   "summary": "On October 21, 2026, Node.js announced the availability of fixes for multiple vulnerabilities across the following supported release lines: 22.x, 24.x, and 26.x.&nbsp; These vulnerabilities impact critical operations such as the Brotli decoder, DNS resolution, and TLS certificate validation. The vulnerabilities pose risks for remote code execution and traffic interception. For more information, see Node.js Security Release .&nbsp; The following vulnerabilities have a Security Impact Rating (SIR) of High and are addressed in this advisory: CVE-2026-111497 - Brotli decoder out-of-bounds write; p",
+   "cves": [
+    "CVE-2026-105482",
+    "CVE-2026-105483",
+    "CVE-2026-106069",
+    "CVE-2026-111497"
+   ],
+   "severity": null,
+   "cvss": 7.4,
+   "thirdParty": false,
+   "detailFetched": true,
+   "firstSeen": "2026-11-05T19:57:22.362224+00:00"
+  },
+  {
+   "vendor": "Cisco",
    "title": "Vulnerabilities in PHP Affecting Cisco Products: October 2026",
    "link": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-php-october26-Jj384Daq?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Vulnerabilities%20in%20PHP%20Affecting%20Cisco%20Products:%20October%202026%26vs_k=1",
    "published": "2026-11-06T14:21:13+00:00",
@@ -42,37 +73,6 @@
    "thirdParty": false,
    "detailFetched": true,
    "firstSeen": "2026-11-06T15:04:59.266588+00:00"
-  },
-  {
-   "vendor": "Cisco",
-   "title": "Cisco Informational for Emergency Distrust of eMudhra Root and Intermediate Certificate Authorities",
-   "link": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-emudhra-info-ScS22A1r?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Cisco%20Informational%20for%20Emergency%20Distrust%20of%20eMudhra%20Root%20and%20Intermediate%20Certificate%20Authorities%26vs_k=1",
-   "published": "2026-11-05T21:58:10+00:00",
-   "summary": "Between October 17 and October 20, 2026, a critical security compromise involving Certificate Authorities that are managed by&nbsp; eMudhra was uncovered. A security researcher demonstrated that the private keys for eight eMudhra intermediate certificates were fundamentally broken due to an unprecedented error in their Key Generation Ceremony (KGC) in April 2025. This allows anyone to brute-force acquire these private keys within seconds. For more information, see&nbsp; eMudhra Intermediate CA Compromise and the Cisco Talos blog post Compromised eMudhra intermediate certificates . For informat",
-   "cves": [],
-   "severity": null,
-   "cvss": null,
-   "thirdParty": false,
-   "detailFetched": true,
-   "firstSeen": "2026-11-05T19:57:22.362228+00:00"
-  },
-  {
-   "vendor": "Cisco",
-   "title": "Vulnerabilities in Node.js and Brotli Affecting Cisco Products: October 2026",
-   "link": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-oct2026-node-js-Jj3SQ19u?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Vulnerabilities%20in%20Node.js%20and%20Brotli%20Affecting%20Cisco%20Products:%20October%202026%26vs_k=1",
-   "published": "2026-11-05T15:22:45+00:00",
-   "summary": "On October 21, 2026, Node.js announced the availability of fixes for multiple vulnerabilities across the following supported release lines: 22.x, 24.x, and 26.x.&nbsp; These vulnerabilities impact critical operations such as the Brotli decoder, DNS resolution, and TLS certificate validation. The vulnerabilities pose risks for remote code execution and traffic interception. For more information, see Node.js Security Release .&nbsp; The following vulnerabilities have a Security Impact Rating (SIR) of High and are addressed in this advisory: CVE-2026-111497 - Brotli decoder out-of-bounds write; p",
-   "cves": [
-    "CVE-2026-105482",
-    "CVE-2026-105483",
-    "CVE-2026-106069",
-    "CVE-2026-111497"
-   ],
-   "severity": null,
-   "cvss": 7.4,
-   "thirdParty": false,
-   "detailFetched": true,
-   "firstSeen": "2026-11-05T19:57:22.362224+00:00"
   },
   {
    "vendor": "Cisco",
@@ -1682,5 +1682,5 @@
    "firstSeen": "2026-11-05T19:57:27.649480+00:00"
   }
  ],
- "generatedAt": "2026-11-06T15:05:00.843698+00:00"
+ "generatedAt": "2026-11-06T21:00:47.113373+00:00"
 }
