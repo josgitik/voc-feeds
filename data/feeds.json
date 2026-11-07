@@ -11,7 +11,7 @@
    "count": 50
   },
   "Fortinet": {
-   "url": "https://filestore.fortinet.com/fortiguard/rss/ir.xml",
+   "url": "https://www.fortiguard.com/rss/ir.xml",
    "ok": true,
    "count": 50
   },
@@ -1682,5 +1682,5 @@
    "firstSeen": "2026-11-05T19:57:27.649480+00:00"
   }
  ],
- "generatedAt": "2026-11-07T14:56:39.231604+00:00"
+ "generatedAt": "2026-11-07T17:50:58.725890+00:00"
 }
