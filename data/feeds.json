@@ -28,6 +28,24 @@
  },
  "items": [
   {
+   "vendor": "Cisco",
+   "title": "Vulnerabilities in Node.js and Brotli Affecting Cisco Products: October 2026",
+   "link": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-oct2026-node-js-Jj3SQ19u?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Vulnerabilities%20in%20Node.js%20and%20Brotli%20Affecting%20Cisco%20Products:%20October%202026%26vs_k=1",
+   "published": "2026-11-09T21:34:14+00:00",
+   "summary": "On October 21, 2026, Node.js announced the availability of fixes for multiple vulnerabilities across the following supported release lines: 22.x, 24.x, and 26.x.&nbsp; These vulnerabilities impact critical operations such as the Brotli decoder, DNS resolution, and TLS certificate validation. The vulnerabilities pose risks for remote code execution and traffic interception. For more information, see Node.js Security Release .&nbsp; The following vulnerabilities have a Security Impact Rating (SIR) of High and are addressed in this advisory: CVE-2026-111497 - Brotli decoder out-of-bounds write; p",
+   "cves": [
+    "CVE-2026-105482",
+    "CVE-2026-105483",
+    "CVE-2026-106069",
+    "CVE-2026-111497"
+   ],
+   "severity": null,
+   "cvss": 7.4,
+   "thirdParty": false,
+   "detailFetched": true,
+   "firstSeen": "2026-11-05T19:57:22.362224+00:00"
+  },
+  {
    "vendor": "Palo Alto",
    "title": "CVE-2026-111497 Portfolio Status: Impact of Brotli Vulnerability (CVE-2026-111497) on Palo Alto Networks Products (Severity: CRITICAL)",
    "link": "https://security.paloaltonetworks.com/CVE-2026-111497",
@@ -74,24 +92,6 @@
    "thirdParty": false,
    "detailFetched": true,
    "firstSeen": "2026-11-05T19:57:22.362228+00:00"
-  },
-  {
-   "vendor": "Cisco",
-   "title": "Vulnerabilities in Node.js and Brotli Affecting Cisco Products: October 2026",
-   "link": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-oct2026-node-js-Jj3SQ19u?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Vulnerabilities%20in%20Node.js%20and%20Brotli%20Affecting%20Cisco%20Products:%20October%202026%26vs_k=1",
-   "published": "2026-11-06T20:17:59+00:00",
-   "summary": "On October 21, 2026, Node.js announced the availability of fixes for multiple vulnerabilities across the following supported release lines: 22.x, 24.x, and 26.x.&nbsp; These vulnerabilities impact critical operations such as the Brotli decoder, DNS resolution, and TLS certificate validation. The vulnerabilities pose risks for remote code execution and traffic interception. For more information, see Node.js Security Release .&nbsp; The following vulnerabilities have a Security Impact Rating (SIR) of High and are addressed in this advisory: CVE-2026-111497 - Brotli decoder out-of-bounds write; p",
-   "cves": [
-    "CVE-2026-105482",
-    "CVE-2026-105483",
-    "CVE-2026-106069",
-    "CVE-2026-111497"
-   ],
-   "severity": null,
-   "cvss": 7.4,
-   "thirdParty": false,
-   "detailFetched": true,
-   "firstSeen": "2026-11-05T19:57:22.362224+00:00"
   },
   {
    "vendor": "Cisco",
@@ -1671,5 +1671,5 @@
    "firstSeen": "2026-11-05T19:57:24.475034+00:00"
   }
  ],
- "generatedAt": "2026-11-09T21:10:22.255249+00:00"
+ "generatedAt": "2026-11-09T22:02:29.940640+00:00"
 }
