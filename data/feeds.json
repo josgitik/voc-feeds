@@ -28,6 +28,20 @@
  },
  "items": [
   {
+   "vendor": "Palo Alto",
+   "title": "CVE-2026-111497 Portfolio Status: Impact of Brotli Vulnerability (CVE-2026-111497) on Palo Alto Networks Products (Severity: CRITICAL)",
+   "link": "https://security.paloaltonetworks.com/CVE-2026-111497",
+   "published": "2026-11-09T21:00:00+00:00",
+   "summary": "",
+   "cves": [
+    "CVE-2026-111497"
+   ],
+   "severity": "Critical",
+   "cvss": null,
+   "thirdParty": true,
+   "firstSeen": "2026-11-05T19:57:20.301631+00:00"
+  },
+  {
    "vendor": "Cisco",
    "title": "Cisco Meraki Security Hardening Release: October 2026",
    "link": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-hardening-meraki-os-drbEX9GH?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Cisco%20Meraki%20Security%20Hardening%20Release:%20October%202026%26vs_k=1",
@@ -186,20 +200,6 @@
    "thirdParty": false,
    "detailFetched": true,
    "firstSeen": "2026-11-05T19:57:24.474974+00:00"
-  },
-  {
-   "vendor": "Palo Alto",
-   "title": "CVE-2026-111497 Portfolio Status: Impact of Brotli Vulnerability (CVE-2026-111497) on Palo Alto Networks Products (Severity: CRITICAL)",
-   "link": "https://security.paloaltonetworks.com/CVE-2026-111497",
-   "published": "2026-10-31T03:15:00+00:00",
-   "summary": "",
-   "cves": [
-    "CVE-2026-111497"
-   ],
-   "severity": "Critical",
-   "cvss": null,
-   "thirdParty": true,
-   "firstSeen": "2026-11-05T19:57:20.301631+00:00"
   },
   {
    "vendor": "Cisco",
@@ -1671,5 +1671,5 @@
    "firstSeen": "2026-11-05T19:57:24.475034+00:00"
   }
  ],
- "generatedAt": "2026-11-09T19:15:52.094616+00:00"
+ "generatedAt": "2026-11-09T21:10:22.255249+00:00"
 }
