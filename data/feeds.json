@@ -11,7 +11,7 @@
    "count": 50
   },
   "Fortinet": {
-   "url": "https://www.fortiguard.com/rss/ir.xml",
+   "url": "https://filestore.fortinet.com/fortiguard/rss/ir.xml",
    "ok": true,
    "count": 50
   },
@@ -27,6 +27,27 @@
   }
  },
  "items": [
+  {
+   "vendor": "Cisco",
+   "title": "Cisco Meraki Security Hardening Release: October 2026",
+   "link": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-hardening-meraki-os-drbEX9GH?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Cisco%20Meraki%20Security%20Hardening%20Release:%20October%202026%26vs_k=1",
+   "published": "2026-11-09T17:55:54+00:00",
+   "summary": "As part of Cisco's ongoing commitment to proactive security and product quality, engineering teams conducted a comprehensive internal security review. This review resulted in software hardening releases that address multiple internally discovered vulnerabilities. These vulnerabilities were found during internal testing and are not known to be actively exploited. To assist customers in patching and streamline the disclosure process, Cisco has grouped these issues by their underlying vulnerability class &mdash; Common Weakness Enumeration (CWE) &mdash; and assigned a single Common Vulnerabilitie",
+   "cves": [
+    "CVE-2026-76463",
+    "CVE-2026-76464",
+    "CVE-2026-76467",
+    "CVE-2026-76468",
+    "CVE-2026-76469",
+    "CVE-2026-76470",
+    "CVE-2026-76472"
+   ],
+   "severity": null,
+   "cvss": 9.6,
+   "thirdParty": false,
+   "detailFetched": true,
+   "firstSeen": "2026-11-05T19:57:22.362293+00:00"
+  },
   {
    "vendor": "Cisco",
    "title": "Cisco Informational for Emergency Distrust of eMudhra Root and Intermediate Certificate Authorities",
@@ -567,26 +588,6 @@
    "cvss": null,
    "thirdParty": false,
    "firstSeen": "2026-11-05T19:57:20.301638+00:00"
-  },
-  {
-   "vendor": "Cisco",
-   "title": "Cisco Meraki Security Hardening Release: October 2026",
-   "link": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-hardening-meraki-os-drbEX9GH?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Cisco%20Meraki%20Security%20Hardening%20Release:%20October%202026%26vs_k=1",
-   "published": "2026-10-15T19:37:28+00:00",
-   "summary": "As part of Cisco's ongoing commitment to proactive security and product quality, engineering teams conducted a comprehensive internal security review. This review resulted in software hardening releases that address multiple internally discovered vulnerabilities. These vulnerabilities were found during internal testing and are not known to be actively exploited. To assist customers in patching and streamline the disclosure process, Cisco has grouped these issues by their underlying vulnerability class &mdash; Common Weakness Enumeration (CWE) &mdash; and assigned a single Common Vulnerabilitie",
-   "cves": [
-    "CVE-2026-76463",
-    "CVE-2026-76464",
-    "CVE-2026-76467",
-    "CVE-2026-76468",
-    "CVE-2026-76469",
-    "CVE-2026-76470",
-    "CVE-2026-76472"
-   ],
-   "severity": null,
-   "cvss": null,
-   "thirdParty": false,
-   "firstSeen": "2026-11-05T19:57:22.362293+00:00"
   },
   {
    "vendor": "Palo Alto",
@@ -1670,5 +1671,5 @@
    "firstSeen": "2026-11-05T19:57:24.475034+00:00"
   }
  ],
- "generatedAt": "2026-11-09T15:13:38.886675+00:00"
+ "generatedAt": "2026-11-09T18:08:12.945120+00:00"
 }
