@@ -1668,19 +1668,7 @@
    "cvss": 5.0,
    "thirdParty": false,
    "firstSeen": "2026-11-05T19:57:24.475034+00:00"
-  },
-  {
-   "vendor": "Ivanti",
-   "title": "August 2026 Security Update",
-   "link": "https://www.ivanti.com/blog/august-2026-security-update",
-   "published": "2026-08-11T14:23:41+00:00",
-   "summary": "Ivanti releases standard security patches on the second Tuesday of every month. In today’s rapidly evolving technology and threat landscape, we believe responsible transparency should be a cornerstone of any product security program. AI is compressing the time-to-exploit , and Ivanti uses leading technologies to proactively find and fix issues ––including integrating advanced LLMs into our Engineering and product security to enhance the capabilities of our teams. Our philosophy is simple: discovering and communicating vulnerabilities, and sharing that information with defenders, is not an indi",
-   "cves": [],
-   "severity": null,
-   "cvss": null,
-   "thirdParty": false,
-   "firstSeen": "2026-11-05T19:57:27.649480+00:00"
   }
  ],
- "generatedAt": "2026-11-09T13:35:24.046199+00:00"
+ "generatedAt": "2026-11-09T15:13:38.886675+00:00"
 }
