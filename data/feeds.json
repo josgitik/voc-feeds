@@ -29,9 +29,22 @@
  "items": [
   {
    "vendor": "Cisco",
+   "title": "Cisco Informational for Emergency Distrust of eMudhra Root and Intermediate Certificate Authorities",
+   "link": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-emudhra-info-ScS22A1r?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Cisco%20Informational%20for%20Emergency%20Distrust%20of%20eMudhra%20Root%20and%20Intermediate%20Certificate%20Authorities%26vs_k=1",
+   "published": "2026-11-10T21:50:24+00:00",
+   "summary": "Between October 17 and October 20, 2026, a critical security compromise involving Certificate Authorities that are managed by&nbsp; eMudhra was uncovered. A security researcher demonstrated that the private keys for eight eMudhra intermediate certificates were fundamentally broken due to an unprecedented error in their Key Generation Ceremony (KGC) in April 2025. This allows anyone to brute-force acquire these private keys within seconds. For more information, see&nbsp; eMudhra Intermediate CA Compromise and the Cisco Talos blog post Compromised eMudhra intermediate certificates . For informat",
+   "cves": [],
+   "severity": null,
+   "cvss": null,
+   "thirdParty": false,
+   "detailFetched": true,
+   "firstSeen": "2026-11-05T19:57:22.362228+00:00"
+  },
+  {
+   "vendor": "Cisco",
    "title": "Vulnerabilities in Node.js and Brotli Affecting Cisco Products: October 2026",
    "link": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-oct2026-node-js-Jj3SQ19u?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Vulnerabilities%20in%20Node.js%20and%20Brotli%20Affecting%20Cisco%20Products:%20October%202026%26vs_k=1",
-   "published": "2026-11-10T20:37:10+00:00",
+   "published": "2026-11-10T21:02:32+00:00",
    "summary": "On October 21, 2026, Node.js announced the availability of fixes for multiple vulnerabilities across the following supported release lines: 22.x, 24.x, and 26.x.&nbsp; These vulnerabilities impact critical operations such as the Brotli decoder, DNS resolution, and TLS certificate validation. The vulnerabilities pose risks for remote code execution and traffic interception. For more information, see Node.js Security Release .&nbsp; The following vulnerabilities have a Security Impact Rating (SIR) of High and are addressed in this advisory: CVE-2026-111497 - Brotli decoder out-of-bounds write; p",
    "cves": [
     "CVE-2026-105482",
@@ -448,10 +461,13 @@
    "link": "https://fortiguard.fortinet.com/psirt/FG-IR-26-269",
    "published": "2026-11-10T08:00:00+00:00",
    "summary": "CVSSv3 Score: 7.4 A Path Traversal vulnerability [cwe-24] in FortiOS, FortiSASE, FortiProxy and FortiPam ssh daemon may allow an unauthenticated attacker to bypass authentication via specially crafted credentials. Revised on 2026-11-10 00:00:00",
-   "cves": [],
-   "severity": null,
+   "cves": [
+    "CVE-2026-126255"
+   ],
+   "severity": "High",
    "cvss": 7.4,
    "thirdParty": false,
+   "detailFetched": true,
    "firstSeen": "2026-11-10T21:02:26.627186+00:00"
   },
   {
@@ -460,10 +476,16 @@
    "link": "https://fortiguard.fortinet.com/psirt/FG-IR-26-218",
    "published": "2026-11-10T08:00:00+00:00",
    "summary": "CVSSv3 Score: 7.6 An Improper Neutralization of Argument Delimiters in a Command ('Argument Injection') [CWE-88] in FortiMail may allow an authenticated remote attacker with domain admin or admin privileges to delete users of other tenant domains on a paired FortiAuthenticator, execute arbitrary code as root or arbitrary CLI commands, and read or write arbitrary files as root via crafted HTTP requests to the administrative interface. Revised on 2026-11-10 00:00:00",
-   "cves": [],
-   "severity": null,
+   "cves": [
+    "CVE-2026-126166",
+    "CVE-2026-126167",
+    "CVE-2026-126168",
+    "CVE-2026-126169"
+   ],
+   "severity": "High",
    "cvss": 7.6,
    "thirdParty": false,
+   "detailFetched": true,
    "firstSeen": "2026-11-10T21:02:26.627188+00:00"
   },
   {
@@ -472,10 +494,13 @@
    "link": "https://fortiguard.fortinet.com/psirt/FG-IR-26-249",
    "published": "2026-11-10T08:00:00+00:00",
    "summary": "CVSSv3 Score: 7.2 A Server-Side Template Injection vulnerability [CWE-1336] in FortiManager, FortiManager Cloud, FortiAnalyzer and FortiAnalyzer Cloud may allow an authenticated attacker with restricted privileges to execute unauthorized code or commands via a specially crafted request. Revised on 2026-11-10 00:00:00",
-   "cves": [],
-   "severity": null,
+   "cves": [
+    "CVE-2026-126234"
+   ],
+   "severity": "High",
    "cvss": 7.2,
    "thirdParty": false,
+   "detailFetched": true,
    "firstSeen": "2026-11-10T21:02:26.627190+00:00"
   },
   {
@@ -484,10 +509,13 @@
    "link": "https://fortiguard.fortinet.com/psirt/FG-IR-26-225",
    "published": "2026-11-10T08:00:00+00:00",
    "summary": "CVSSv3 Score: 8.4 An Improper Neutralization of Special Elements Used in a Template Engine vulnerability [CWE-1336] in FortiManager and FortiManager Cloud may allow a low privileged Device Manager admin to obtain super admin privilege on managed FortiGates via injecting malicious commands. Revised on 2026-11-10 00:00:00",
-   "cves": [],
-   "severity": null,
+   "cves": [
+    "CVE-2026-126180"
+   ],
+   "severity": "High",
    "cvss": 8.4,
    "thirdParty": false,
+   "detailFetched": true,
    "firstSeen": "2026-11-10T21:02:26.627191+00:00"
   },
   {
@@ -496,10 +524,13 @@
    "link": "https://fortiguard.fortinet.com/psirt/FG-IR-26-220",
    "published": "2026-11-10T08:00:00+00:00",
    "summary": "CVSSv3 Score: 7.2 A Use of Externally-Controlled Format String [CWE-134] in FortiManager, FortiAnalyzer, FortiManager Cloud and FortiAnalyzer Cloud API may allow an authenticated attacker to execute unauthorized commands via specially crafted HTTP request Revised on 2026-11-10 00:00:00",
-   "cves": [],
-   "severity": null,
+   "cves": [
+    "CVE-2026-126171"
+   ],
+   "severity": "High",
    "cvss": 7.2,
    "thirdParty": false,
+   "detailFetched": true,
    "firstSeen": "2026-11-10T21:02:26.627193+00:00"
   },
   {
@@ -508,10 +539,13 @@
    "link": "https://fortiguard.fortinet.com/psirt/FG-IR-26-198",
    "published": "2026-11-10T08:00:00+00:00",
    "summary": "CVSSv3 Score: 7.2 An improper neutralization of special elements used in an OS Command ('OS Command Injection') vulnerability [CWE-78] in FortiMail, FortiRecorder may allow an authenticated privileged attacker to execute unauthorized code or commands via a specifically crafted archive account configuration. Revised on 2026-11-10 00:00:00",
-   "cves": [],
-   "severity": null,
+   "cves": [
+    "CVE-2026-126146"
+   ],
+   "severity": "High",
    "cvss": 7.2,
    "thirdParty": false,
+   "detailFetched": true,
    "firstSeen": "2026-11-10T21:02:26.627194+00:00"
   },
   {
@@ -520,10 +554,13 @@
    "link": "https://fortiguard.fortinet.com/psirt/FG-IR-26-246",
    "published": "2026-11-10T08:00:00+00:00",
    "summary": "CVSSv3 Score: 7.2 An improper Neutralization of Special Elements used in an OS Command ('OS Command Injection') vulnerability (CWE-78) in FortiAnalyzer, FortiAnalyzer Cloud, FortiManager, FortiManager Cloud system-ha plugin may allow an authenticated attacker to execute unauthorized commands via a crafted HTTP request. Revised on 2026-11-10 00:00:00",
-   "cves": [],
-   "severity": null,
+   "cves": [
+    "CVE-2026-126231"
+   ],
+   "severity": "High",
    "cvss": 7.2,
    "thirdParty": false,
+   "detailFetched": true,
    "firstSeen": "2026-11-10T21:02:26.627196+00:00"
   },
   {
@@ -532,10 +569,13 @@
    "link": "https://fortiguard.fortinet.com/psirt/FG-IR-26-197",
    "published": "2026-11-10T08:00:00+00:00",
    "summary": "CVSSv3 Score: 7.2 An Improper Neutralization of Special Elements used in an OS Command (“OS Command Injection”) vulnerability [CWE-78] in FortiMail may allow an authenticated administrator with system-time read-write access to execute unauthorized code or commands as root. Revised on 2026-11-10 00:00:00",
-   "cves": [],
-   "severity": null,
+   "cves": [
+    "CVE-2026-126145"
+   ],
+   "severity": "High",
    "cvss": 7.2,
    "thirdParty": false,
+   "detailFetched": true,
    "firstSeen": "2026-11-10T21:02:26.627198+00:00"
   },
   {
@@ -544,10 +584,13 @@
    "link": "https://fortiguard.fortinet.com/psirt/FG-IR-26-241",
    "published": "2026-11-10T08:00:00+00:00",
    "summary": "CVSSv3 Score: 7.2 An improper neutralization of special elements used in an OS Command ('OS Command Injection') vulnerability [CWE-78] in FortiAnalyzer, FortiAnalyzer Cloud, FortiManager and FortiManager Cloud may allow an authenticated privileged attacker to execute unauthorized code or commands via crafted report schedule name. Revised on 2026-11-10 00:00:00",
-   "cves": [],
-   "severity": null,
+   "cves": [
+    "CVE-2026-126226"
+   ],
+   "severity": "High",
    "cvss": 7.2,
    "thirdParty": false,
+   "detailFetched": true,
    "firstSeen": "2026-11-10T21:02:26.627199+00:00"
   },
   {
@@ -556,10 +599,13 @@
    "link": "https://fortiguard.fortinet.com/psirt/FG-IR-26-196",
    "published": "2026-11-10T08:00:00+00:00",
    "summary": "CVSSv3 Score: 8.8 An improper neutralization of special elements used in an OS Command ('OS Command Injection') vulnerability [CWE-78] in FortiMail, FortiRecorder and FortiVoice may allow an authenticated attacker to execute unauthorized code or commands via specifically crafted HTTP requests. Revised on 2026-11-10 00:00:00",
-   "cves": [],
-   "severity": null,
+   "cves": [
+    "CVE-2026-126144"
+   ],
+   "severity": "High",
    "cvss": 8.8,
    "thirdParty": false,
+   "detailFetched": true,
    "firstSeen": "2026-11-10T21:02:26.627201+00:00"
   },
   {
@@ -568,10 +614,13 @@
    "link": "https://fortiguard.fortinet.com/psirt/FG-IR-26-233",
    "published": "2026-11-10T08:00:00+00:00",
    "summary": "CVSSv3 Score: 7.1 An SQL Injection vulnerability [CWE-89] in FortiManager, FortiManager Cloud, FortiAnalyzer, FortiAnalyzer Cloud may allow an authenticated attacker to execute unauthorized SQL commands via specially crafted requests. Revised on 2026-11-10 00:00:00",
-   "cves": [],
-   "severity": null,
+   "cves": [
+    "CVE-2026-126213"
+   ],
+   "severity": "High",
    "cvss": 7.1,
    "thirdParty": false,
+   "detailFetched": true,
    "firstSeen": "2026-11-10T21:02:26.627203+00:00"
   },
   {
@@ -580,10 +629,13 @@
    "link": "https://fortiguard.fortinet.com/psirt/FG-IR-26-256",
    "published": "2026-11-10T08:00:00+00:00",
    "summary": "CVSSv3 Score: 8.8 An Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection')[CWE-89] in FortiAuthenticator may allow an authenticated attacker to execute unauthorized SQL commands on the underlying database. Revised on 2026-11-10 00:00:00",
-   "cves": [],
-   "severity": null,
+   "cves": [
+    "CVE-2026-126241"
+   ],
+   "severity": "High",
    "cvss": 8.8,
    "thirdParty": false,
+   "detailFetched": true,
    "firstSeen": "2026-11-10T21:02:26.627204+00:00"
   },
   {
@@ -592,10 +644,13 @@
    "link": "https://fortiguard.fortinet.com/psirt/FG-IR-26-221",
    "published": "2026-11-10T08:00:00+00:00",
    "summary": "CVSSv3 Score: 8.8 An improper neutralization of special elements used in an SQL Command ('SQL Injection') vulnerability [CWE-89] in FortiAnalyzer, FortiAnalyzer Cloud, FortiManager and FortiManager Cloud may allow an authenticated attacker to execute unauthorized code or commands via crafted JSON-RPC requests. Revised on 2026-11-10 00:00:00",
-   "cves": [],
-   "severity": null,
+   "cves": [
+    "CVE-2026-126175"
+   ],
+   "severity": "High",
    "cvss": 8.8,
    "thirdParty": false,
+   "detailFetched": true,
    "firstSeen": "2026-11-10T21:02:26.627206+00:00"
   },
   {
@@ -604,10 +659,13 @@
    "link": "https://fortiguard.fortinet.com/psirt/FG-IR-26-216",
    "published": "2026-11-10T08:00:00+00:00",
    "summary": "CVSSv3 Score: 9.4 An Improper neutralization of special elements used in an SQL command ('SQL injection') [CWE-89] in FortiMail may allow an unauthenticated attacker to execute unauthorized code or commands via crafted requests. Revised on 2026-11-10 00:00:00",
-   "cves": [],
-   "severity": null,
+   "cves": [
+    "CVE-2026-126164"
+   ],
+   "severity": "Critical",
    "cvss": 9.4,
    "thirdParty": false,
+   "detailFetched": true,
    "firstSeen": "2026-11-10T21:02:26.627208+00:00"
   },
   {
@@ -616,10 +674,13 @@
    "link": "https://fortiguard.fortinet.com/psirt/FG-IR-26-266",
    "published": "2026-11-10T08:00:00+00:00",
    "summary": "CVSSv3 Score: 8.3 An improper neutralization of special elements used in an sql command ('sql injection')[CWE-89] vulnerability may allow an authenticated attacker to execute unauthorized code or commands via http requests Revised on 2026-11-10 00:00:00",
-   "cves": [],
-   "severity": null,
+   "cves": [
+    "CVE-2026-126252"
+   ],
+   "severity": "High",
    "cvss": 8.3,
    "thirdParty": false,
+   "detailFetched": true,
    "firstSeen": "2026-11-10T21:02:26.627209+00:00"
   },
   {
@@ -628,10 +689,13 @@
    "link": "https://fortiguard.fortinet.com/psirt/FG-IR-26-255",
    "published": "2026-11-10T08:00:00+00:00",
    "summary": "CVSSv3 Score: 8.2 An Improper Neutralization of Special Elements used in an LDAP Query ('LDAP Injection')[CWE-90] in FortiAuthenticator may allow an authenticated attacker to bypass authentication. Successful exploitation requires either a malicious/compromised upstream IdP, or an IdP configuration that allows the user to control the NameID (or the SAML attribute used as the username). Revised on 2026-11-10 00:00:00",
-   "cves": [],
-   "severity": null,
+   "cves": [
+    "CVE-2026-126240"
+   ],
+   "severity": "High",
    "cvss": 8.2,
    "thirdParty": false,
+   "detailFetched": true,
    "firstSeen": "2026-11-10T21:02:26.627211+00:00"
   },
   {
@@ -640,10 +704,13 @@
    "link": "https://fortiguard.fortinet.com/psirt/FG-IR-26-224",
    "published": "2026-11-10T08:00:00+00:00",
    "summary": "CVSSv3 Score: 7.2 An OS Command Injection vulnerability [CWE-78] in FortiManager, FortiManager Cloud, FortiAnalyzer and FortiAnalyzer Cloud may allow an authenticated administrator to execute unauthorized code or commands via specially crafted requests Revised on 2026-11-10 00:00:00",
-   "cves": [],
-   "severity": null,
+   "cves": [
+    "CVE-2026-126179"
+   ],
+   "severity": "High",
    "cvss": 7.2,
    "thirdParty": false,
+   "detailFetched": true,
    "firstSeen": "2026-11-10T21:02:26.627213+00:00"
   },
   {
@@ -652,10 +719,13 @@
    "link": "https://fortiguard.fortinet.com/psirt/FG-IR-26-210",
    "published": "2026-11-10T08:00:00+00:00",
    "summary": "CVSSv3 Score: 7.2 An Improper Neutralization of Special Elements used in an OS Command ('OS Command Injection') vulnerability [CWE-78] in FortiMail may allow an authenticated administrator to execute unauthorized code or commands as root via specially crafted HTTP requests. Revised on 2026-11-10 00:00:00",
-   "cves": [],
-   "severity": null,
+   "cves": [
+    "CVE-2026-126158"
+   ],
+   "severity": "High",
    "cvss": 7.2,
    "thirdParty": false,
+   "detailFetched": true,
    "firstSeen": "2026-11-10T21:02:26.627214+00:00"
   },
   {
@@ -664,10 +734,13 @@
    "link": "https://fortiguard.fortinet.com/psirt/FG-IR-26-200",
    "published": "2026-11-10T08:00:00+00:00",
    "summary": "CVSSv3 Score: 9.8 An Improper neutralization of special elements used in a command ('command injection') [CWE-77] in FortiMail may allow an unauthenticated attacker to execute unauthorized code or commands via crafted HA join-request packets. Revised on 2026-11-10 00:00:00",
-   "cves": [],
-   "severity": null,
+   "cves": [
+    "CVE-2026-126148"
+   ],
+   "severity": "Critical",
    "cvss": 9.8,
    "thirdParty": false,
+   "detailFetched": true,
    "firstSeen": "2026-11-10T21:02:26.627216+00:00"
   },
   {
@@ -676,10 +749,13 @@
    "link": "https://fortiguard.fortinet.com/psirt/FG-IR-26-251",
    "published": "2026-11-10T08:00:00+00:00",
    "summary": "CVSSv3 Score: 7.2 An Improper Neutralization of Special Elements used in an OS Command ('OS Command Injection') vulnerability [cwe-78] in FortiManager, FortiAnalyzer, FortiManager Cloud, FortiAnalyzer Cloud, FortiSASE-Sovereign GUI may allow an authenticated attacker to execute unauthorized code or commands via specially crafted HTTP requests Revised on 2026-11-10 00:00:00",
-   "cves": [],
-   "severity": null,
+   "cves": [
+    "CVE-2026-126236"
+   ],
+   "severity": "High",
    "cvss": 7.2,
    "thirdParty": false,
+   "detailFetched": true,
    "firstSeen": "2026-11-10T21:02:26.627217+00:00"
   },
   {
@@ -688,10 +764,13 @@
    "link": "https://fortiguard.fortinet.com/psirt/FG-IR-26-263",
    "published": "2026-11-10T08:00:00+00:00",
    "summary": "CVSSv3 Score: 7.2 An Improper Privilege Management vulnerability[CWE-269] in FortiAuthenticator may allow an authenticated attacker to escalate privileges. Revised on 2026-11-10 00:00:00",
-   "cves": [],
-   "severity": null,
+   "cves": [
+    "CVE-2026-126249"
+   ],
+   "severity": "High",
    "cvss": 7.2,
    "thirdParty": false,
+   "detailFetched": true,
    "firstSeen": "2026-11-10T21:02:26.627219+00:00"
   },
   {
@@ -700,10 +779,13 @@
    "link": "https://fortiguard.fortinet.com/psirt/FG-IR-26-231",
    "published": "2026-11-10T08:00:00+00:00",
    "summary": "CVSSv3 Score: 7.2 An improper privilege management vulnerability [CWE-269] in FortiAnalyzer, FortiAnalyzer Cloud, FortiManager and FortiManager Cloud may allow an authenticated privileged attacker to elevate their privileges via crafted JSON-RPC request. Revised on 2026-11-10 00:00:00",
-   "cves": [],
-   "severity": null,
+   "cves": [
+    "CVE-2026-126211"
+   ],
+   "severity": "High",
    "cvss": 7.2,
    "thirdParty": false,
+   "detailFetched": true,
    "firstSeen": "2026-11-10T21:02:26.627221+00:00"
   },
   {
@@ -712,10 +794,16 @@
    "link": "https://fortiguard.fortinet.com/psirt/FG-IR-26-234",
    "published": "2026-11-10T08:00:00+00:00",
    "summary": "CVSSv3 Score: 8.7 An Incorrect Authorization vulnerability [CWE-863], an Improper Privilege Management vulnerability [CWE-269] and an Authentication Bypass by Spoofing vulnerability [CWE-290] in FortiManager, FortiManager Cloud, FortiAnalyzer, FortiAnalyzer Cloud, and FortiAnalyzer-BigData may allow an authenticated administrator to escalate their privileges, bypass authorization controls or impersonate internal services via specially crafted requests to the GUI. Revised on 2026-11-10 00:00:00",
-   "cves": [],
-   "severity": null,
+   "cves": [
+    "CVE-2026-126214",
+    "CVE-2026-126215",
+    "CVE-2026-126216",
+    "CVE-2026-126217"
+   ],
+   "severity": "High",
    "cvss": 8.7,
    "thirdParty": false,
+   "detailFetched": true,
    "firstSeen": "2026-11-10T21:02:26.627223+00:00"
   },
   {
@@ -724,10 +812,13 @@
    "link": "https://fortiguard.fortinet.com/psirt/FG-IR-26-265",
    "published": "2026-11-10T08:00:00+00:00",
    "summary": "CVSSv3 Score: 9.1 An Incorrect Authorization vulnerability [CWE-863] in FortiAuthenticator may allow an attacker to bypass authentication and gain unauthorized access. Revised on 2026-11-10 00:00:00",
-   "cves": [],
-   "severity": null,
+   "cves": [
+    "CVE-2026-126251"
+   ],
+   "severity": "Critical",
    "cvss": 9.1,
    "thirdParty": false,
+   "detailFetched": true,
    "firstSeen": "2026-11-10T21:02:26.627224+00:00"
   },
   {
@@ -736,10 +827,13 @@
    "link": "https://fortiguard.fortinet.com/psirt/FG-IR-26-207",
    "published": "2026-11-10T08:00:00+00:00",
    "summary": "CVSSv3 Score: 9.1 An Incorrect Authorization vulnerability [CWE-863] in FortiMail may allow an unauthenticated remote attacker to obtain an authenticated IBE webmail session as any IBE recipient and read or send their encrypted mail via crafted HTTP requests. Revised on 2026-11-10 00:00:00",
-   "cves": [],
-   "severity": null,
+   "cves": [
+    "CVE-2026-126155"
+   ],
+   "severity": "Critical",
    "cvss": 9.1,
    "thirdParty": false,
+   "detailFetched": true,
    "firstSeen": "2026-11-10T21:02:26.627226+00:00"
   },
   {
@@ -790,19 +884,6 @@
    "thirdParty": false,
    "detailFetched": true,
    "firstSeen": "2026-11-05T19:57:22.362293+00:00"
-  },
-  {
-   "vendor": "Cisco",
-   "title": "Cisco Informational for Emergency Distrust of eMudhra Root and Intermediate Certificate Authorities",
-   "link": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-emudhra-info-ScS22A1r?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Cisco%20Informational%20for%20Emergency%20Distrust%20of%20eMudhra%20Root%20and%20Intermediate%20Certificate%20Authorities%26vs_k=1",
-   "published": "2026-11-06T20:40:06+00:00",
-   "summary": "Between October 17 and October 20, 2026, a critical security compromise involving Certificate Authorities that are managed by&nbsp; eMudhra was uncovered. A security researcher demonstrated that the private keys for eight eMudhra intermediate certificates were fundamentally broken due to an unprecedented error in their Key Generation Ceremony (KGC) in April 2025. This allows anyone to brute-force acquire these private keys within seconds. For more information, see&nbsp; eMudhra Intermediate CA Compromise and the Cisco Talos blog post Compromised eMudhra intermediate certificates . For informat",
-   "cves": [],
-   "severity": null,
-   "cvss": null,
-   "thirdParty": false,
-   "detailFetched": true,
-   "firstSeen": "2026-11-05T19:57:22.362228+00:00"
   },
   {
    "vendor": "Cisco",
@@ -2270,5 +2351,5 @@
    "firstSeen": "2026-11-05T19:57:24.475019+00:00"
   }
  ],
- "generatedAt": "2026-11-10T21:02:27.009399+00:00"
+ "generatedAt": "2026-11-10T21:57:54.342049+00:00"
 }
