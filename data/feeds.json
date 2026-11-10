@@ -28,6 +28,26 @@
  },
  "items": [
   {
+   "vendor": "Ivanti",
+   "title": "November 2026 Security Update",
+   "link": "https://www.ivanti.com/blog/november-2026-security-update",
+   "published": "2026-11-10T15:33:07+00:00",
+   "summary": "Ivanti releases standard security patches on the second Tuesday of every month. In today’s rapidly evolving technology and threat landscape, we believe responsible transparency should be a cornerstone of any product security program. AI is compressing the time-to-exploit , and Ivanti uses leading technologies to proactively find and fix issues––including integrating advanced LLMs into our Engineering and product security to enhance the capabilities of our teams and identify vulnerabilities that traditional tools have previously missed. Our philosophy is simple: discovering and communicating vu",
+   "cves": [
+    "CVE-2026-105425",
+    "CVE-2026-105669",
+    "CVE-2026-105813",
+    "CVE-2026-121683",
+    "CVE-2026-123179",
+    "CVE-2026-123181"
+   ],
+   "severity": null,
+   "cvss": null,
+   "thirdParty": false,
+   "detailFetched": true,
+   "firstSeen": "2026-11-10T16:09:03.826395+00:00"
+  },
+  {
    "vendor": "Palo Alto",
    "title": "CVE-2026-0250 GlobalProtect App: Buffer Overflow Vulnerability during connection to Portal or Gateway (Severity: MEDIUM)",
    "link": "https://security.paloaltonetworks.com/CVE-2026-0250",
@@ -1573,5 +1593,5 @@
    "firstSeen": "2026-11-05T19:57:24.475019+00:00"
   }
  ],
- "generatedAt": "2026-11-10T07:34:21.956229+00:00"
+ "generatedAt": "2026-11-10T16:09:03.970695+00:00"
 }
