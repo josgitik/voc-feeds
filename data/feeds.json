@@ -28,6 +28,20 @@
  },
  "items": [
   {
+   "vendor": "Palo Alto",
+   "title": "CVE-2026-0250 GlobalProtect App: Buffer Overflow Vulnerability during connection to Portal or Gateway (Severity: MEDIUM)",
+   "link": "https://security.paloaltonetworks.com/CVE-2026-0250",
+   "published": "2026-11-10T07:15:00+00:00",
+   "summary": "",
+   "cves": [
+    "CVE-2026-0250"
+   ],
+   "severity": "Medium",
+   "cvss": null,
+   "thirdParty": false,
+   "firstSeen": "2026-11-05T19:57:20.301663+00:00"
+  },
+  {
    "vendor": "Cisco",
    "title": "Vulnerabilities in Node.js and Brotli Affecting Cisco Products: October 2026",
    "link": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-oct2026-node-js-Jj3SQ19u?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Vulnerabilities%20in%20Node.js%20and%20Brotli%20Affecting%20Cisco%20Products:%20October%202026%26vs_k=1",
@@ -1194,20 +1208,6 @@
    "firstSeen": "2026-11-05T19:57:22.362323+00:00"
   },
   {
-   "vendor": "Palo Alto",
-   "title": "CVE-2026-0250 GlobalProtect App: Buffer Overflow Vulnerability during connection to Portal or Gateway (Severity: MEDIUM)",
-   "link": "https://security.paloaltonetworks.com/CVE-2026-0250",
-   "published": "2026-10-02T08:15:00+00:00",
-   "summary": "",
-   "cves": [
-    "CVE-2026-0250"
-   ],
-   "severity": "Medium",
-   "cvss": null,
-   "thirdParty": false,
-   "firstSeen": "2026-11-05T19:57:20.301663+00:00"
-  },
-  {
    "vendor": "Fortinet",
    "title": "Improper limitation of a pathname to a restricted directory",
    "link": "https://fortiguard.fortinet.com/psirt/FG-IR-26-175",
@@ -1571,105 +1571,7 @@
    "cvss": 8.1,
    "thirdParty": false,
    "firstSeen": "2026-11-05T19:57:24.475019+00:00"
-  },
-  {
-   "vendor": "Fortinet",
-   "title": "HTTP/2 Bomb CVE-2026-49975",
-   "link": "https://fortiguard.fortinet.com/psirt/FG-IR-26-163",
-   "published": "2026-08-12T07:00:00+00:00",
-   "summary": "CVSSv3 Score: 5.8 CVE-2026-49975Memory Allocation with Excessive Size Value vulnerability in Apache HTTP Server's mod_http leads to denial of service via malicious HTTP requests. This issue affects Apache HTTP Server: from 2.4.17 through 2.4.67. Revised on 2026-08-19 00:00:00",
-   "cves": [
-    "CVE-2026-49975"
-   ],
-   "severity": null,
-   "cvss": 5.8,
-   "thirdParty": false,
-   "firstSeen": "2026-11-05T19:57:24.475022+00:00"
-  },
-  {
-   "vendor": "Fortinet",
-   "title": "Broken access control in the RADIUS type admin group",
-   "link": "https://fortiguard.fortinet.com/psirt/FG-IR-26-158",
-   "published": "2026-08-12T07:00:00+00:00",
-   "summary": "CVSSv3 Score: 9.8 An Improper Authentication vulnerability [CWE-287] in the FortiWeb Remote Radius Type Admin Authentication configured with specific, non-default settings may allow a remote unauthenticated attacker to login into the Fortiweb GUI/CLI with a random username and password Revised on 2026-08-12 00:00:00",
-   "cves": [],
-   "severity": null,
-   "cvss": 9.8,
-   "thirdParty": false,
-   "firstSeen": "2026-11-05T19:57:24.475024+00:00"
-  },
-  {
-   "vendor": "Fortinet",
-   "title": "Content-Encoding WAF Evasion",
-   "link": "https://fortiguard.fortinet.com/psirt/FG-IR-26-157",
-   "published": "2026-08-12T07:00:00+00:00",
-   "summary": "CVSSv3 Score: 5.3 An incomplete list of disallowed inputs [CWE-184] in FortiWeb WAF may allow an unauthenticated attacker to bypass policies via specifically crafted requests. Revised on 2026-08-12 00:00:00",
-   "cves": [],
-   "severity": null,
-   "cvss": 5.3,
-   "thirdParty": false,
-   "firstSeen": "2026-11-05T19:57:24.475025+00:00"
-  },
-  {
-   "vendor": "Fortinet",
-   "title": "FGFM Authentication Weakening via CLI Configuration",
-   "link": "https://fortiguard.fortinet.com/psirt/FG-IR-26-160",
-   "published": "2026-08-12T07:00:00+00:00",
-   "summary": "CVSSv3 Score: 8.1 An Authentication Bypass Using an Alternate Path or Channel [CWE-288] vulnerability in FortiManager and FortiManager Cloud may allow a remote unauthenticated attacker to impersonate any FortiGate managed by the FortiManager with a specific CLI option set via crafted FGFM requests if the attacker has a valid certificate. Revised on 2026-08-12 00:00:00",
-   "cves": [],
-   "severity": null,
-   "cvss": 8.1,
-   "thirdParty": false,
-   "firstSeen": "2026-11-05T19:57:24.475027+00:00"
-  },
-  {
-   "vendor": "Fortinet",
-   "title": "Heap overflow in kernel driver due to missing size validation",
-   "link": "https://fortiguard.fortinet.com/psirt/FG-IR-26-156",
-   "published": "2026-08-12T07:00:00+00:00",
-   "summary": "CVSSv3 Score: 7.3 A buffer copy without checking size of input vulnerability [CWE-120] in FortiClient Windows may allow an unauthenticated attacker in a position to alter or craft DNS responses to the targeted host to execute arbitrary code via malicious packets. Revised on 2026-08-12 00:00:00",
-   "cves": [],
-   "severity": null,
-   "cvss": 7.3,
-   "thirdParty": false,
-   "firstSeen": "2026-11-05T19:57:24.475029+00:00"
-  },
-  {
-   "vendor": "Fortinet",
-   "title": "Server-Side Request Forgery (SSRF)",
-   "link": "https://fortiguard.fortinet.com/psirt/FG-IR-26-159",
-   "published": "2026-08-12T07:00:00+00:00",
-   "summary": "CVSSv3 Score: 3.8 A Server-Side request forgery (SSRF) [CWE-918] vulnerability in FortiSIEM GUI may allow an authenticated attacker to send HTTP requests originating from the targeted device via specially crafted HTTP requests Revised on 2026-08-12 00:00:00",
-   "cves": [],
-   "severity": null,
-   "cvss": 3.8,
-   "thirdParty": false,
-   "firstSeen": "2026-11-05T19:57:24.475031+00:00"
-  },
-  {
-   "vendor": "Fortinet",
-   "title": "Stack buffer overflow in WAD",
-   "link": "https://fortiguard.fortinet.com/psirt/FG-IR-26-161",
-   "published": "2026-08-12T07:00:00+00:00",
-   "summary": "CVSSv3 Score: 5.6 A Stack-based Buffer Overflow vulnerability [CWE-121] in FortiOS explicit proxy may allow an unauthenticated attacker who can bypass stack protection and ASLR to execute arbitrary code or commands in the context of the WAD daemon via crafted sockets, only if the explicit proxy is configured with Kerberos authentication and SOCKS enabled. Revised on 2026-08-12 00:00:00",
-   "cves": [],
-   "severity": null,
-   "cvss": 5.6,
-   "thirdParty": false,
-   "firstSeen": "2026-11-05T19:57:24.475032+00:00"
-  },
-  {
-   "vendor": "Fortinet",
-   "title": "UI DoS attack",
-   "link": "https://fortiguard.fortinet.com/psirt/FG-IR-26-162",
-   "published": "2026-08-12T07:00:00+00:00",
-   "summary": "CVSSv3 Score: 5.0 An Allocation of Resources Without Limits or Throttling vulnerability [CWE-770] in FortiOS may allow an unauthenticated attacker to perform a slow HTTP DoS attack on the web interface via crafted HTTP requests. Revised on 2026-08-12 00:00:00",
-   "cves": [],
-   "severity": null,
-   "cvss": 5.0,
-   "thirdParty": false,
-   "firstSeen": "2026-11-05T19:57:24.475034+00:00"
   }
  ],
- "generatedAt": "2026-11-09T22:02:29.940640+00:00"
+ "generatedAt": "2026-11-10T07:34:21.956229+00:00"
 }
