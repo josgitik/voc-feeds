@@ -28,6 +28,186 @@
  },
  "items": [
   {
+   "vendor": "Palo Alto",
+   "title": "CVE-2026-0325 PAN-OS: GlobalProtect Authorization Bypass Vulnerability (Severity: LOW)",
+   "link": "https://security.paloaltonetworks.com/CVE-2026-0325",
+   "published": "2026-11-11T17:00:00+00:00",
+   "summary": "",
+   "cves": [
+    "CVE-2026-0325"
+   ],
+   "severity": "Low",
+   "cvss": null,
+   "thirdParty": false,
+   "firstSeen": "2026-11-11T17:18:54.796673+00:00"
+  },
+  {
+   "vendor": "Palo Alto",
+   "title": "CVE-2026-0327 PAN-OS: Privilege Escalation Vulnerability in GlobalProtect (Severity: LOW)",
+   "link": "https://security.paloaltonetworks.com/CVE-2026-0327",
+   "published": "2026-11-11T17:00:00+00:00",
+   "summary": "",
+   "cves": [
+    "CVE-2026-0327"
+   ],
+   "severity": "Low",
+   "cvss": null,
+   "thirdParty": false,
+   "firstSeen": "2026-11-11T17:18:54.796677+00:00"
+  },
+  {
+   "vendor": "Palo Alto",
+   "title": "CVE-2026-0331 PAN-OS: Sensitive Information Disclosure Vulnerability (Severity: MEDIUM)",
+   "link": "https://security.paloaltonetworks.com/CVE-2026-0331",
+   "published": "2026-11-11T17:00:00+00:00",
+   "summary": "",
+   "cves": [
+    "CVE-2026-0331"
+   ],
+   "severity": "Medium",
+   "cvss": null,
+   "thirdParty": false,
+   "firstSeen": "2026-11-11T17:18:54.796679+00:00"
+  },
+  {
+   "vendor": "Palo Alto",
+   "title": "PAN-SA-2026-0014 Chromium: Monthly Vulnerability Update (November 2026) (Severity: HIGH)",
+   "link": "https://security.paloaltonetworks.com/PAN-SA-2026-0014",
+   "published": "2026-11-11T17:00:00+00:00",
+   "summary": "",
+   "cves": [
+    "CVE-2026-110136",
+    "CVE-2026-110137",
+    "CVE-2026-110138",
+    "CVE-2026-110139",
+    "CVE-2026-110140",
+    "CVE-2026-110141",
+    "CVE-2026-110142",
+    "CVE-2026-110143",
+    "CVE-2026-110144",
+    "CVE-2026-110145",
+    "CVE-2026-110146",
+    "CVE-2026-110147",
+    "CVE-2026-110148",
+    "CVE-2026-110149",
+    "CVE-2026-110150",
+    "CVE-2026-110151",
+    "CVE-2026-110152",
+    "CVE-2026-110153",
+    "CVE-2026-110154",
+    "CVE-2026-110155",
+    "CVE-2026-110156",
+    "CVE-2026-110157",
+    "CVE-2026-110158",
+    "CVE-2026-110159",
+    "CVE-2026-110160",
+    "CVE-2026-110161",
+    "CVE-2026-110162",
+    "CVE-2026-110163",
+    "CVE-2026-110164",
+    "CVE-2026-110165",
+    "CVE-2026-110166",
+    "CVE-2026-110167",
+    "CVE-2026-110168",
+    "CVE-2026-110169",
+    "CVE-2026-110170",
+    "CVE-2026-110171",
+    "CVE-2026-110172",
+    "CVE-2026-110913",
+    "CVE-2026-110914",
+    "CVE-2026-110915"
+   ],
+   "severity": "High",
+   "cvss": 7.7,
+   "thirdParty": false,
+   "detailFetched": true,
+   "firstSeen": "2026-11-11T17:18:54.796681+00:00"
+  },
+  {
+   "vendor": "Palo Alto",
+   "title": "CVE-2026-0328 PAN-OS: User Impersonation through GlobalProtect Portal (Severity: LOW)",
+   "link": "https://security.paloaltonetworks.com/CVE-2026-0328",
+   "published": "2026-11-11T17:00:00+00:00",
+   "summary": "",
+   "cves": [
+    "CVE-2026-0328"
+   ],
+   "severity": "Low",
+   "cvss": null,
+   "thirdParty": false,
+   "firstSeen": "2026-11-11T17:18:54.796683+00:00"
+  },
+  {
+   "vendor": "Palo Alto",
+   "title": "CVE-2026-0323 Checkov by Prisma Cloud: Server-Side Request Forgery Vulnerability (Severity: LOW)",
+   "link": "https://security.paloaltonetworks.com/CVE-2026-0323",
+   "published": "2026-11-11T17:00:00+00:00",
+   "summary": "",
+   "cves": [
+    "CVE-2026-0323"
+   ],
+   "severity": "Low",
+   "cvss": null,
+   "thirdParty": false,
+   "firstSeen": "2026-11-11T17:18:54.796685+00:00"
+  },
+  {
+   "vendor": "Palo Alto",
+   "title": "CVE-2026-0330 PAN-OS: Authenticated Remote Code Execution (RCE) in Panorama (Severity: MEDIUM)",
+   "link": "https://security.paloaltonetworks.com/CVE-2026-0330",
+   "published": "2026-11-11T17:00:00+00:00",
+   "summary": "",
+   "cves": [
+    "CVE-2026-0330"
+   ],
+   "severity": "Medium",
+   "cvss": null,
+   "thirdParty": false,
+   "firstSeen": "2026-11-11T17:18:54.796686+00:00"
+  },
+  {
+   "vendor": "Palo Alto",
+   "title": "CVE-2026-0329 PAN-OS: Buffer Overflow Vulnerability (Severity: MEDIUM)",
+   "link": "https://security.paloaltonetworks.com/CVE-2026-0329",
+   "published": "2026-11-11T17:00:00+00:00",
+   "summary": "",
+   "cves": [
+    "CVE-2026-0329"
+   ],
+   "severity": "Medium",
+   "cvss": null,
+   "thirdParty": false,
+   "firstSeen": "2026-11-11T17:18:54.796688+00:00"
+  },
+  {
+   "vendor": "Palo Alto",
+   "title": "CVE-2026-0324 GlobalProtect App: Incorrect Privilege Management Vulnerability in OPSWAT MetaDefender Endpoint Security SDK on Windows (Severity: MEDIUM)",
+   "link": "https://security.paloaltonetworks.com/CVE-2026-0324",
+   "published": "2026-11-11T17:00:00+00:00",
+   "summary": "",
+   "cves": [
+    "CVE-2026-0324"
+   ],
+   "severity": "Medium",
+   "cvss": null,
+   "thirdParty": false,
+   "firstSeen": "2026-11-11T17:18:54.796689+00:00"
+  },
+  {
+   "vendor": "Palo Alto",
+   "title": "CVE-2026-0326 PAN-OS: Buffer Overflow Vulnerability in Protocol and Service Processing (Severity: LOW)",
+   "link": "https://security.paloaltonetworks.com/CVE-2026-0326",
+   "published": "2026-11-11T17:00:00+00:00",
+   "summary": "",
+   "cves": [
+    "CVE-2026-0326"
+   ],
+   "severity": "Low",
+   "cvss": null,
+   "thirdParty": false,
+   "firstSeen": "2026-11-11T17:18:54.796691+00:00"
+  },
+  {
    "vendor": "Cisco",
    "title": "Cisco Identity Services Engine Authorization Bypass Vulnerabilities",
    "link": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-ise-auth-bypass-1-MxcTNgwx?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Cisco%20Identity%20Services%20Engine%20Authorization%20Bypass%20Vulnerabilities%26vs_k=1",
@@ -2368,5 +2548,5 @@
    "firstSeen": "2026-11-05T19:57:24.475019+00:00"
   }
  ],
- "generatedAt": "2026-11-10T22:58:04.814981+00:00"
+ "generatedAt": "2026-11-11T17:18:56.943137+00:00"
 }
