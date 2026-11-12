@@ -1049,6 +1049,21 @@
    "firstSeen": "2026-11-10T21:02:26.627226+00:00"
   },
   {
+   "vendor": "Fortinet",
+   "title": "Numeric truncation error",
+   "link": "https://fortiguard.fortinet.com/psirt/FG-IR-26-268",
+   "published": "2026-11-10T08:00:00+00:00",
+   "summary": "CVSSv3 Score: 9.6 A Numeric Truncation Error vulnerability [cwe-197] in FortiOS and FortiSASE bgp daemon may allow a configured ibgp neighbor to send malicious/malformed attributes to all connected routers via a specially crafted request Revised on 2026-11-13 00:00:00",
+   "cves": [
+    "CVE-2026-126254"
+   ],
+   "severity": "Critical",
+   "cvss": 9.6,
+   "thirdParty": false,
+   "detailFetched": true,
+   "firstSeen": "2026-11-12T23:58:46.172230+00:00"
+  },
+  {
    "vendor": "Palo Alto",
    "title": "CVE-2026-0250 GlobalProtect App: Buffer Overflow Vulnerability during connection to Portal or Gateway (Severity: MEDIUM)",
    "link": "https://security.paloaltonetworks.com/CVE-2026-0250",
@@ -2563,5 +2578,5 @@
    "firstSeen": "2026-11-05T19:57:24.475019+00:00"
   }
  ],
- "generatedAt": "2026-11-12T23:02:21.410117+00:00"
+ "generatedAt": "2026-11-12T23:58:46.453149+00:00"
 }
