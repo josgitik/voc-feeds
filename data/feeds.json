@@ -29,6 +29,19 @@
  "items": [
   {
    "vendor": "Cisco",
+   "title": "Cisco Informational for Emergency Distrust of eMudhra Root and Intermediate Certificate Authorities",
+   "link": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-emudhra-info-ScS22A1r?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Cisco%20Informational%20for%20Emergency%20Distrust%20of%20eMudhra%20Root%20and%20Intermediate%20Certificate%20Authorities%26vs_k=1",
+   "published": "2026-11-13T20:01:18+00:00",
+   "summary": "Between October 17 and October 20, 2026, a critical security compromise involving Certificate Authorities that are managed by&nbsp; eMudhra was uncovered. A security researcher demonstrated that the private keys for eight eMudhra intermediate certificates were fundamentally broken due to an unprecedented error in their Key Generation Ceremony (KGC) in April 2025. This allows anyone to brute-force acquire these private keys within seconds. For more information, see&nbsp; eMudhra Intermediate CA Compromise and the Cisco Talos blog post Compromised eMudhra intermediate certificates . For informat",
+   "cves": [],
+   "severity": null,
+   "cvss": null,
+   "thirdParty": false,
+   "detailFetched": true,
+   "firstSeen": "2026-11-05T19:57:22.362228+00:00"
+  },
+  {
+   "vendor": "Cisco",
    "title": "Cisco BroadWorks Out-of-Band Blind XML External Entity Injection Vulnerability",
    "link": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-bworks-xxe-uwUd7CEt?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Cisco%20BroadWorks%20Out-of-Band%20Blind%20XML%20External%20Entity%20Injection%20Vulnerability%26vs_k=1",
    "published": "2026-11-13T17:38:56+00:00",
@@ -41,19 +54,6 @@
    "thirdParty": false,
    "detailFetched": true,
    "firstSeen": "2026-11-12T18:06:43.112538+00:00"
-  },
-  {
-   "vendor": "Cisco",
-   "title": "Cisco Informational for Emergency Distrust of eMudhra Root and Intermediate Certificate Authorities",
-   "link": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-emudhra-info-ScS22A1r?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Cisco%20Informational%20for%20Emergency%20Distrust%20of%20eMudhra%20Root%20and%20Intermediate%20Certificate%20Authorities%26vs_k=1",
-   "published": "2026-11-12T22:57:57+00:00",
-   "summary": "Between October 17 and October 20, 2026, a critical security compromise involving Certificate Authorities that are managed by&nbsp; eMudhra was uncovered. A security researcher demonstrated that the private keys for eight eMudhra intermediate certificates were fundamentally broken due to an unprecedented error in their Key Generation Ceremony (KGC) in April 2025. This allows anyone to brute-force acquire these private keys within seconds. For more information, see&nbsp; eMudhra Intermediate CA Compromise and the Cisco Talos blog post Compromised eMudhra intermediate certificates . For informat",
-   "cves": [],
-   "severity": null,
-   "cvss": null,
-   "thirdParty": false,
-   "detailFetched": true,
-   "firstSeen": "2026-11-05T19:57:22.362228+00:00"
   },
   {
    "vendor": "Cisco",
@@ -2593,5 +2593,5 @@
    "firstSeen": "2026-11-05T19:57:24.475019+00:00"
   }
  ],
- "generatedAt": "2026-11-13T19:16:47.750962+00:00"
+ "generatedAt": "2026-11-13T20:14:15.523007+00:00"
 }
