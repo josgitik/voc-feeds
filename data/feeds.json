@@ -1064,6 +1064,21 @@
    "firstSeen": "2026-11-12T23:58:46.172230+00:00"
   },
   {
+   "vendor": "Fortinet",
+   "title": "SSLVPN Improper Certificate Validation",
+   "link": "https://fortiguard.fortinet.com/psirt/FG-IR-26-193",
+   "published": "2026-11-10T08:00:00+00:00",
+   "summary": "CVSSv3 Score: 7.7 An improper certificate validation vulnerability [CWE-295] in FortiOS SSLVPN may allow a remote and unauthenticated attacker to perform a Man-in-the-Middle attack on the communication channel between the SSLVPN web portal and the backend destination website. Revised on 2026-11-12 00:00:00",
+   "cves": [
+    "CVE-2026-121528"
+   ],
+   "severity": "High",
+   "cvss": 7.7,
+   "thirdParty": false,
+   "detailFetched": true,
+   "firstSeen": "2026-11-13T19:16:47.430386+00:00"
+  },
+  {
    "vendor": "Palo Alto",
    "title": "CVE-2026-0250 GlobalProtect App: Buffer Overflow Vulnerability during connection to Portal or Gateway (Severity: MEDIUM)",
    "link": "https://security.paloaltonetworks.com/CVE-2026-0250",
@@ -2578,5 +2593,5 @@
    "firstSeen": "2026-11-05T19:57:24.475019+00:00"
   }
  ],
- "generatedAt": "2026-11-13T18:08:02.907140+00:00"
+ "generatedAt": "2026-11-13T19:16:47.750962+00:00"
 }
