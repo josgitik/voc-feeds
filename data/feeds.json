@@ -29,6 +29,21 @@
  "items": [
   {
    "vendor": "Cisco",
+   "title": "Cisco BroadWorks Out-of-Band Blind XML External Entity Injection Vulnerability",
+   "link": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-bworks-xxe-uwUd7CEt?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Cisco%20BroadWorks%20Out-of-Band%20Blind%20XML%20External%20Entity%20Injection%20Vulnerability%26vs_k=1",
+   "published": "2026-11-13T17:38:56+00:00",
+   "summary": "A vulnerability in the Open Client Interface (OCI) XML Parser of Cisco BroadWorks could allow an unauthenticated, remote attacker to read sensitive configuration information on an affected system.&nbsp; This vulnerability exists because XML entries are improperly parsed due to external entity resolution being allowed by default. An attacker could exploit this vulnerability by sending a crafted XML message to the Open Client Interface &ndash; Provisioning (OCI-P) service. A successful exploit could allow the attacker to view sensitive files from the filesystem with the privileges of the Cisco B",
+   "cves": [
+    "CVE-2026-20320"
+   ],
+   "severity": null,
+   "cvss": 7.5,
+   "thirdParty": false,
+   "detailFetched": true,
+   "firstSeen": "2026-11-12T18:06:43.112538+00:00"
+  },
+  {
+   "vendor": "Cisco",
    "title": "Cisco Informational for Emergency Distrust of eMudhra Root and Intermediate Certificate Authorities",
    "link": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-emudhra-info-ScS22A1r?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Cisco%20Informational%20for%20Emergency%20Distrust%20of%20eMudhra%20Root%20and%20Intermediate%20Certificate%20Authorities%26vs_k=1",
    "published": "2026-11-12T22:57:57+00:00",
@@ -57,21 +72,6 @@
    "thirdParty": false,
    "detailFetched": true,
    "firstSeen": "2026-11-05T19:57:22.362224+00:00"
-  },
-  {
-   "vendor": "Cisco",
-   "title": "Cisco BroadWorks Out-of-Band Blind XML External Entity Injection Vulnerability",
-   "link": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-bworks-xxe-uwUd7CEt?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Cisco%20BroadWorks%20Out-of-Band%20Blind%20XML%20External%20Entity%20Injection%20Vulnerability%26vs_k=1",
-   "published": "2026-11-12T17:25:12+00:00",
-   "summary": "A vulnerability in the Open Client Interface (OCI) XML Parser of Cisco BroadWorks could allow an unauthenticated, remote attacker to read sensitive configuration information on an affected system.&nbsp; This vulnerability exists because XML entries are improperly parsed due to external entity resolution being allowed by default. An attacker could exploit this vulnerability by sending a crafted XML message to the Open Client Interface &ndash; Provisioning (OCI-P) service. A successful exploit could allow the attacker to view sensitive files from the filesystem with the privileges of the Cisco B",
-   "cves": [
-    "CVE-2026-20320"
-   ],
-   "severity": null,
-   "cvss": 7.5,
-   "thirdParty": false,
-   "detailFetched": true,
-   "firstSeen": "2026-11-12T18:06:43.112538+00:00"
   },
   {
    "vendor": "Palo Alto",
@@ -2578,5 +2578,5 @@
    "firstSeen": "2026-11-05T19:57:24.475019+00:00"
   }
  ],
- "generatedAt": "2026-11-12T23:58:46.453149+00:00"
+ "generatedAt": "2026-11-13T18:08:02.907140+00:00"
 }
