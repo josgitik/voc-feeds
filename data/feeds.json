@@ -2,8 +2,8 @@
  "sources": {
   "Palo Alto": {
    "url": "https://security.paloaltonetworks.com/rss.xml",
-   "ok": false,
-   "error": "HTTP 502 en https://security.paloaltonetworks.com/rss.xml"
+   "ok": true,
+   "count": 25
   },
   "Cisco": {
    "url": "https://sec.cloudapps.cisco.com/security/center/psirtrss20/CiscoSecurityAdvisory.xml",
@@ -2593,5 +2593,5 @@
    "firstSeen": "2026-11-05T19:57:24.475019+00:00"
   }
  ],
- "generatedAt": "2026-11-13T23:55:12.347562+00:00"
+ "generatedAt": "2026-11-14T01:25:54.155812+00:00"
 }
