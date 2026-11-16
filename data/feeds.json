@@ -580,7 +580,7 @@
    "title": "Improper limitation of a pathname to a restricted directory",
    "link": "https://fortiguard.fortinet.com/psirt/FG-IR-26-237",
    "published": "2026-11-10T08:00:00+00:00",
-   "summary": "CVSSv3 Score: 7.2 An Improper Limitation of a Pathname to a Restricted Directory (CWE-22) vulnerability in FortiManager, FortiAnalyzer, FortiManager Cloud and FortiAnalyzer Cloud may allow an authenticated attacker with admin privileges to execute unauthorized code or commands via crafted requests. Revised on 2026-11-10 00:00:00",
+   "summary": "CVSSv3 Score: 7.2 An Improper Limitation of a Pathname to a Restricted Directory vulnerability [CWE-22] in FortiManager, FortiAnalyzer, FortiManager Cloud and FortiAnalyzer Cloud may allow an authenticated attacker with admin privileges to execute unauthorized code or commands via crafted requests. Revised on 2026-11-10 00:00:00",
    "cves": [
     "CVE-2026-126222"
    ],
@@ -870,7 +870,7 @@
    "title": "Improper neutralization of special elements used in an SQL command",
    "link": "https://fortiguard.fortinet.com/psirt/FG-IR-26-216",
    "published": "2026-11-10T08:00:00+00:00",
-   "summary": "CVSSv3 Score: 9.4 An Improper neutralization of special elements used in an SQL command ('SQL injection') [CWE-89] in FortiMail may allow an unauthenticated attacker to execute unauthorized code or commands via crafted requests. Revised on 2026-11-10 00:00:00",
+   "summary": "CVSSv3 Score: 9.4 An Improper neutralization of special elements used in an SQL command ('SQL injection') vulnerability [CWE-89] in FortiMail may allow an unauthenticated attacker to execute unauthorized code or commands via crafted requests. Revised on 2026-11-10 00:00:00",
    "cves": [
     "CVE-2026-126164"
    ],
@@ -945,7 +945,7 @@
    "title": "Improper neutralization of special elements used in an os command",
    "link": "https://fortiguard.fortinet.com/psirt/FG-IR-26-200",
    "published": "2026-11-10T08:00:00+00:00",
-   "summary": "CVSSv3 Score: 9.8 An Improper neutralization of special elements used in a command ('command injection') [CWE-77] in FortiMail may allow an unauthenticated attacker to execute unauthorized code or commands via crafted HA join-request packets. Revised on 2026-11-10 00:00:00",
+   "summary": "CVSSv3 Score: 9.8 An Improper neutralization of special elements used in a command ('command injection') vulnerability [CWE-77] in FortiMail may allow an unauthenticated attacker to execute unauthorized code or commands via crafted HA join-request packets. Revised on 2026-11-10 00:00:00",
    "cves": [
     "CVE-2026-126148"
    ],
@@ -2608,5 +2608,5 @@
    "firstSeen": "2026-11-05T19:57:24.475019+00:00"
   }
  ],
- "generatedAt": "2026-11-16T19:19:28.222597+00:00"
+ "generatedAt": "2026-11-16T22:06:15.946867+00:00"
 }
