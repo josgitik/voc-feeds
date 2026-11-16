@@ -1079,6 +1079,21 @@
    "firstSeen": "2026-11-13T19:16:47.430386+00:00"
   },
   {
+   "vendor": "Fortinet",
+   "title": "Unauthenticated adjacent command execution via HA",
+   "link": "https://fortiguard.fortinet.com/psirt/FG-IR-26-273",
+   "published": "2026-11-10T08:00:00+00:00",
+   "summary": "CVSSv3 Score: 9.0 A missing authentication for critical function vulnerability [CWE-306] in FortiOS may allow an unauthenticated attacker with HA FGSP + standalone-config-sync, or autoscale to execute command as super admin via crafted HA packets. Revised on 2026-11-16 00:00:00",
+   "cves": [
+    "CVE-2026-126259"
+   ],
+   "severity": "Critical",
+   "cvss": 9.0,
+   "thirdParty": false,
+   "detailFetched": true,
+   "firstSeen": "2026-11-16T19:19:27.787808+00:00"
+  },
+  {
    "vendor": "Palo Alto",
    "title": "CVE-2026-0250 GlobalProtect App: Buffer Overflow Vulnerability during connection to Portal or Gateway (Severity: MEDIUM)",
    "link": "https://security.paloaltonetworks.com/CVE-2026-0250",
@@ -2593,5 +2608,5 @@
    "firstSeen": "2026-11-05T19:57:24.475019+00:00"
   }
  ],
- "generatedAt": "2026-11-14T01:25:54.155812+00:00"
+ "generatedAt": "2026-11-16T19:19:28.222597+00:00"
 }
