@@ -657,7 +657,7 @@
    "title": "Improper neutralization of argument delimiters in a command",
    "link": "https://fortiguard.fortinet.com/psirt/FG-IR-26-239",
    "published": "2026-11-10T08:00:00+00:00",
-   "summary": "CVSSv3 Score: 7.2 An Improper Neutralization of Argument Delimiters in a Command ('Argument Injection')[CWE-88] vulnerability in FortiManager,FortiAnalyzer, FortiManager Cloud, FortiAnalyzer Cloud may allow an authenticated privileged admin user to execute unauthorized code or commands. Revised on 2026-11-10 00:00:00",
+   "summary": "CVSSv3 Score: 7.2 An Improper Neutralization of Argument Delimiters in a Command ('Argument Injection') vulnerability[CWE-88] in FortiManager,FortiAnalyzer, FortiManager Cloud, FortiAnalyzer Cloud may allow an authenticated privileged admin user to execute unauthorized code or commands. Revised on 2026-11-10 00:00:00",
    "cves": [
     "CVE-2026-126224"
    ],
@@ -2608,5 +2608,5 @@
    "firstSeen": "2026-11-05T19:57:24.475019+00:00"
   }
  ],
- "generatedAt": "2026-11-16T23:03:46.852185+00:00"
+ "generatedAt": "2026-11-16T23:58:08.184238+00:00"
 }
