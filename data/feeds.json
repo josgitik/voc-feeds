@@ -672,7 +672,7 @@
    "title": "Improper neutralization of special elements in output used by a downstream component in sshd",
    "link": "https://fortiguard.fortinet.com/psirt/FG-IR-26-269",
    "published": "2026-11-10T08:00:00+00:00",
-   "summary": "CVSSv3 Score: 7.4 A Path Traversal vulnerability [cwe-24] in FortiOS, FortiSASE, FortiProxy and FortiPam ssh daemon may allow an unauthenticated attacker to bypass authentication via specially crafted credentials. Revised on 2026-11-10 00:00:00",
+   "summary": "CVSSv3 Score: 7.4 A Path Traversal vulnerability [cwe-24] in FortiOS, FortiSASE and FortiPam ssh daemon may allow an unauthenticated attacker to bypass authentication via specially crafted credentials. Revised on 2026-11-10 00:00:00",
    "cves": [
     "CVE-2026-126255"
    ],
@@ -2608,5 +2608,5 @@
    "firstSeen": "2026-11-05T19:57:24.475019+00:00"
   }
  ],
- "generatedAt": "2026-11-16T23:58:08.184238+00:00"
+ "generatedAt": "2026-11-17T11:16:40.498481+00:00"
 }
