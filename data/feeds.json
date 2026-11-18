@@ -67,6 +67,21 @@
    "firstSeen": "2026-11-18T16:22:59.271837+00:00"
   },
   {
+   "vendor": "Fortinet",
+   "title": "Java4Shell Vulnerability - CVE-2026-114938",
+   "link": "https://fortiguard.fortinet.com/psirt/FG-IR-26-278",
+   "published": "2026-11-18T08:00:00+00:00",
+   "summary": "CVSSv3 Score: 8.1 CVE-2026-114938Vulnerability in the Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition product of Oracle Java SE (component: Compiler). Supported versions that are affected are Oracle Java SE: 8u511b33-perf, 17.0.21.0.3, 21.0.13.0.3, 25.0.5.0.3, 27.0.1.0.3; Oracle GraalVM for JDK: 17.0.21.0.3 and 21.0.13.0.3; Oracle GraalVM Enterprise Edition: 21.3.20.0.3. Difficult to exploit vulnerability allows unauthenticated attacker with network access via multiple protocols to compromise Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition. S",
+   "cves": [
+    "CVE-2026-114938"
+   ],
+   "severity": "High",
+   "cvss": 8.1,
+   "thirdParty": false,
+   "detailFetched": true,
+   "firstSeen": "2026-11-18T18:08:22.597597+00:00"
+  },
+  {
    "vendor": "Cisco",
    "title": "Vulnerabilities in Node.js and Brotli Affecting Cisco Products: October 2026",
    "link": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-oct2026-node-js-Jj3SQ19u?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Vulnerabilities%20in%20Node.js%20and%20Brotli%20Affecting%20Cisco%20Products:%20October%202026%26vs_k=1",
@@ -2647,5 +2662,5 @@
    "firstSeen": "2026-11-05T19:57:24.475019+00:00"
   }
  ],
- "generatedAt": "2026-11-18T16:23:00.932307+00:00"
+ "generatedAt": "2026-11-18T18:08:22.956349+00:00"
 }
