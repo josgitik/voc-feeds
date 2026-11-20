@@ -28,6 +28,20 @@
  },
  "items": [
   {
+   "vendor": "Palo Alto",
+   "title": "CVE-2026-114938 Portfolio Status: Impact of Java Vulnerability (CVE-2026-114938) on Palo Alto Networks Products (Severity: CRITICAL)",
+   "link": "https://security.paloaltonetworks.com/CVE-2026-114938",
+   "published": "2026-11-20T17:00:00+00:00",
+   "summary": "",
+   "cves": [
+    "CVE-2026-114938"
+   ],
+   "severity": "Critical",
+   "cvss": null,
+   "thirdParty": true,
+   "firstSeen": "2026-11-20T01:30:18.621752+00:00"
+  },
+  {
    "vendor": "Cisco",
    "title": "Cisco Informational for Emergency Distrust of eMudhra Root and Intermediate Certificate Authorities",
    "link": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-emudhra-info-ScS22A1r?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Cisco%20Informational%20for%20Emergency%20Distrust%20of%20eMudhra%20Root%20and%20Intermediate%20Certificate%20Authorities%26vs_k=1",
@@ -39,20 +53,6 @@
    "thirdParty": false,
    "detailFetched": true,
    "firstSeen": "2026-11-05T19:57:22.362228+00:00"
-  },
-  {
-   "vendor": "Palo Alto",
-   "title": "CVE-2026-114938 Portfolio Status: Impact of Java Vulnerability (CVE-2026-114938) on Palo Alto Networks Products (Severity: CRITICAL)",
-   "link": "https://security.paloaltonetworks.com/CVE-2026-114938",
-   "published": "2026-11-19T23:00:00+00:00",
-   "summary": "",
-   "cves": [
-    "CVE-2026-114938"
-   ],
-   "severity": "Critical",
-   "cvss": null,
-   "thirdParty": true,
-   "firstSeen": "2026-11-20T01:30:18.621752+00:00"
   },
   {
    "vendor": "Cisco",
@@ -2676,5 +2676,5 @@
    "firstSeen": "2026-11-05T19:57:24.475019+00:00"
   }
  ],
- "generatedAt": "2026-11-20T16:18:15.669825+00:00"
+ "generatedAt": "2026-11-20T18:14:27.711079+00:00"
 }
