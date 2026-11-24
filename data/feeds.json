@@ -29,6 +29,30 @@
  "items": [
   {
    "vendor": "Cisco",
+   "title": "ClamAV Vulnerabilities Affecting Cisco Products: November 2026",
+   "link": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-clamav-multi-e93M3vdA?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=ClamAV%20Vulnerabilities%20Affecting%20Cisco%20Products:%20November%202026%26vs_k=1",
+   "published": "2026-11-24T13:44:57+00:00",
+   "summary": "Multiple vulnerabilities in ClamAV could allow a remote attacker to bypass configured file and scan time limits and cause a denial of service (DoS) condition, interrupting scanning operations. For more information about these vulnerabilities, see the&nbsp; Details &nbsp;section of this advisory. For additional information on these vulnerabilities in ClamAV, see the&nbsp; ClamAV blog . Cisco has released software updates that address these vulnerabilities in affected Cisco platforms. There are no workarounds that address these vulnerabilities. Notes: The Security Impact Rating (SIR) for these v",
+   "cves": [
+    "CVE-2026-76411",
+    "CVE-2026-76414",
+    "CVE-2026-76415",
+    "CVE-2026-76416",
+    "CVE-2026-76417",
+    "CVE-2026-76421",
+    "CVE-2026-76422",
+    "CVE-2026-76430",
+    "CVE-2026-76515",
+    "CVE-2026-76516"
+   ],
+   "severity": null,
+   "cvss": 7.5,
+   "thirdParty": false,
+   "detailFetched": true,
+   "firstSeen": "2026-11-18T16:22:59.271833+00:00"
+  },
+  {
+   "vendor": "Cisco",
    "title": "Vulnerability in Oracle OpenJDK (Java4Shell) Affecting Cisco Products: November 2026",
    "link": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-nov2026-java-rce-eCa6ss9z?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Vulnerability%20in%20Oracle%20OpenJDK%20(Java4Shell)%20Affecting%20Cisco%20Products:%20November%202026%26vs_k=1",
    "published": "2026-11-23T20:32:33+00:00",
@@ -156,30 +180,6 @@
    "thirdParty": false,
    "detailFetched": true,
    "firstSeen": "2026-11-20T22:06:45.203619+00:00"
-  },
-  {
-   "vendor": "Cisco",
-   "title": "ClamAV Vulnerabilities Affecting Cisco Products: November 2026",
-   "link": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-clamav-multi-e93M3vdA?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=ClamAV%20Vulnerabilities%20Affecting%20Cisco%20Products:%20November%202026%26vs_k=1",
-   "published": "2026-11-18T16:00:00+00:00",
-   "summary": "Multiple vulnerabilities in ClamAV could allow a remote attacker to bypass configured file and scan time limits and cause a denial of service (DoS) condition, interrupting scanning operations. For more information about these vulnerabilities, see the&nbsp; Details &nbsp;section of this advisory. For additional information on these vulnerabilities in ClamAV, see the&nbsp; ClamAV blog . Cisco has released software updates that address these vulnerabilities in affected Cisco platforms. There are no workarounds that address these vulnerabilities. Notes: The Security Impact Rating (SIR) for these v",
-   "cves": [
-    "CVE-2026-76411",
-    "CVE-2026-76414",
-    "CVE-2026-76415",
-    "CVE-2026-76416",
-    "CVE-2026-76417",
-    "CVE-2026-76421",
-    "CVE-2026-76422",
-    "CVE-2026-76430",
-    "CVE-2026-76515",
-    "CVE-2026-76516"
-   ],
-   "severity": null,
-   "cvss": 7.5,
-   "thirdParty": false,
-   "detailFetched": true,
-   "firstSeen": "2026-11-18T16:22:59.271833+00:00"
   },
   {
    "vendor": "Fortinet",
@@ -2750,5 +2750,5 @@
    "firstSeen": "2026-11-05T19:57:24.475019+00:00"
   }
  ],
- "generatedAt": "2026-11-23T23:12:56.009901+00:00"
+ "generatedAt": "2026-11-24T14:30:39.275755+00:00"
 }
