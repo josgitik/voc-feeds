@@ -28,6 +28,37 @@
  },
  "items": [
   {
+   "vendor": "Palo Alto",
+   "title": "CVE-2026-123633 Portfolio Status: Impact of NGINX Vulnerabilities (CVE-2026-123633, CVE-2026-123007) on Palo Alto Networks Products (Severity: CRITICAL)",
+   "link": "https://security.paloaltonetworks.com/CVE-2026-123633",
+   "published": "2026-11-24T23:10:00+00:00",
+   "summary": "",
+   "cves": [
+    "CVE-2026-123007",
+    "CVE-2026-123633"
+   ],
+   "severity": "Critical",
+   "cvss": null,
+   "thirdParty": true,
+   "firstSeen": "2026-11-21T01:35:56.258312+00:00"
+  },
+  {
+   "vendor": "Palo Alto",
+   "title": "PAN-SA-2026-0015 Security Bulletin: OSS CVEs Fixed in PAN-OS (Severity: INFORMATIONAL)",
+   "link": "https://security.paloaltonetworks.com/PAN-SA-2026-0015",
+   "published": "2026-11-24T23:10:00+00:00",
+   "summary": "",
+   "cves": [
+    "CVE-2026-109618",
+    "CVE-2026-46300"
+   ],
+   "severity": null,
+   "cvss": null,
+   "thirdParty": false,
+   "detailFetched": true,
+   "firstSeen": "2026-11-25T01:42:34.996595+00:00"
+  },
+  {
    "vendor": "Cisco",
    "title": "Vulnerabilities in nginx Affecting Cisco Products: November 2026",
    "link": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-nginx-nov-2026-e8jska2s?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Vulnerabilities%20in%20nginx%20Affecting%20Cisco%20Products:%20November%202026%26vs_k=1",
@@ -81,18 +112,29 @@
   },
   {
    "vendor": "Palo Alto",
-   "title": "CVE-2026-123633 Portfolio Status: Impact of NGINX Vulnerabilities (CVE-2026-123633, CVE-2026-123007) on Palo Alto Networks Products (Severity: CRITICAL)",
-   "link": "https://security.paloaltonetworks.com/CVE-2026-123633",
+   "title": "PAN-SA-2026-0005 Informational Bulletin: Precautionary Fixes for Non-Exploitable OSS CVEs in PAN-OS (Severity: INFORMATIONAL)",
+   "link": "https://security.paloaltonetworks.com/PAN-SA-2026-0005",
    "published": "2026-11-24T19:00:00+00:00",
    "summary": "",
    "cves": [
-    "CVE-2026-123007",
-    "CVE-2026-123633"
+    "CVE-2022-32149",
+    "CVE-2023-36661",
+    "CVE-2024-2961",
+    "CVE-2024-33599",
+    "CVE-2024-33600",
+    "CVE-2024-33601",
+    "CVE-2024-33602",
+    "CVE-2025-49844",
+    "CVE-2026-31431",
+    "CVE-2026-35385",
+    "CVE-2026-43284",
+    "CVE-2026-98432"
    ],
-   "severity": "Critical",
+   "severity": null,
    "cvss": null,
-   "thirdParty": true,
-   "firstSeen": "2026-11-21T01:35:56.258312+00:00"
+   "thirdParty": false,
+   "detailFetched": true,
+   "firstSeen": "2026-11-25T01:42:34.996598+00:00"
   },
   {
    "vendor": "Cisco",
@@ -2750,5 +2792,5 @@
    "firstSeen": "2026-11-05T19:57:24.475019+00:00"
   }
  ],
- "generatedAt": "2026-11-24T22:18:00.720972+00:00"
+ "generatedAt": "2026-11-25T01:42:36.989719+00:00"
 }
