@@ -28,6 +28,21 @@
  },
  "items": [
   {
+   "vendor": "Cisco",
+   "title": "Cisco UCS and UCS-Based Appliances UEFI Shell Secure Boot Bypass Vulnerability",
+   "link": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-ucs-uefi-sb-bypass-eb6xC5GW?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Cisco%20UCS%20and%20UCS-Based%20Appliances%20UEFI%20Shell%20Secure%20Boot%20Bypass%20Vulnerability%26vs_k=1",
+   "published": "2026-11-25T18:29:45+00:00",
+   "summary": "A vulnerability in the Unified Extensible Firmware Interface (UEFI) Shell implementation of Cisco UCS Servers and UCS-based appliances could allow an authenticated attacker with valid credentials for a user account with the role of user or admin &nbsp;or an unauthenticated attacker with physical access to an affected device to bypass UEFI Secure Boot validation checks and execute unauthorized software. This vulnerability is due to the availability of memory write commands in the UEFI Shell while UEFI Secure Boot is enabled on a device. An attacker could exploit this vulnerability by selecting ",
+   "cves": [
+    "CVE-2026-20293"
+   ],
+   "severity": null,
+   "cvss": 7.1,
+   "thirdParty": false,
+   "detailFetched": true,
+   "firstSeen": "2026-11-05T19:57:22.362298+00:00"
+  },
+  {
    "vendor": "Palo Alto",
    "title": "CVE-2026-123633 Portfolio Status: Impact of NGINX Vulnerabilities (CVE-2026-123633, CVE-2026-123007) on Palo Alto Networks Products (Severity: CRITICAL)",
    "link": "https://security.paloaltonetworks.com/CVE-2026-123633",
@@ -2035,20 +2050,6 @@
    "firstSeen": "2026-11-05T19:57:22.362296+00:00"
   },
   {
-   "vendor": "Cisco",
-   "title": "Cisco UCS and UCS-Based Appliances UEFI Shell Secure Boot Bypass Vulnerability",
-   "link": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-ucs-uefi-sb-bypass-eb6xC5GW?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Cisco%20UCS%20and%20UCS-Based%20Appliances%20UEFI%20Shell%20Secure%20Boot%20Bypass%20Vulnerability%26vs_k=1",
-   "published": "2026-10-13T21:05:13+00:00",
-   "summary": "A vulnerability in the Unified Extensible Firmware Interface (UEFI) Shell implementation of Cisco UCS Servers and UCS-based appliances could allow an authenticated attacker with valid credentials for a user account with the role of user or admin &nbsp;or an unauthenticated attacker with physical access to an affected device to bypass UEFI Secure Boot validation checks and execute unauthorized software. This vulnerability is due to the availability of memory write commands in the UEFI Shell while UEFI Secure Boot is enabled on a device. An attacker could exploit this vulnerability by selecting ",
-   "cves": [
-    "CVE-2026-20293"
-   ],
-   "severity": null,
-   "cvss": null,
-   "thirdParty": false,
-   "firstSeen": "2026-11-05T19:57:22.362298+00:00"
-  },
-  {
    "vendor": "Ivanti",
    "title": "October 2026 Security Update",
    "link": "https://www.ivanti.com/blog/october-2026-security-update",
@@ -2792,5 +2793,5 @@
    "firstSeen": "2026-11-05T19:57:24.475019+00:00"
   }
  ],
- "generatedAt": "2026-11-25T01:42:36.989719+00:00"
+ "generatedAt": "2026-11-25T19:17:22.746600+00:00"
 }
